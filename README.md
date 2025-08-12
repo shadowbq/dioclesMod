@@ -8,6 +8,7 @@
 [![License](https://img.shields.io/badge/License-MIT-brightgreen)](https://github.com/shadowbq/dioclesMod/blob/main/LICENSE)
 [![Tests](https://img.shields.io/badge/Tests-29%20Passing-success)](https://github.com/shadowbq/dioclesMod)
 
+Diocles is a Minecraft Fabric server mod that tracks player deaths using persistent scoreboards and automatically synchronizes death statistics to an external HTTP API for web-based leaderboards and analytics. The mod operates with graceful degradation, providing full local functionality even when no external API is configured, making it safe to deploy in any server environment without risk of crashes or performance impact.
 
 ## Features
 
@@ -124,8 +125,8 @@ View detailed test results in `build/reports/tests/test/index.html` after runnin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/shadowbq/loginlogger-fabricmod.git
-   cd loginlogger-fabricmod
+   git clone https://github.com/shadowbq/dioclesMod.git
+   cd dioclesMod
    ```
 
 2. Build the mod:
