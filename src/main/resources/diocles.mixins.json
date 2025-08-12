@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.shadowbq.diocles.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "diocles.refmap.json",
+  "mixins": ["ServerPlayerEntityMixin"],
+  "client": [],
+  "server": ["ServerPlayerEntityMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "diocles",
+  "version": "1.0.0",
+  "name": "Diocles",
+  "description": "Deathboard: scoreboards + external post + daily sync",
+  "authors": ["shadowbq"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.shadowbq.diocles.DioclesMod"]
+  },
+  "mixins": ["diocles.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": ">=0.129.0",
+    "minecraft": "~1.21.7",
+    "java": ">=21"
+  }
+}
