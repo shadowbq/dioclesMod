@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.shadowbq'
-version = '1.0.0'
+version = '1.0.1'
 
 java {
     sourceCompatibility = JavaVersion.VERSION_21
@@ -33,7 +33,9 @@ dependencies {
 loom {
 }
 
-
 test {
     useJUnitPlatform()
 }
+
+// Apply external script files for better organization
+apply from: 'gradle/version-management.gradle'

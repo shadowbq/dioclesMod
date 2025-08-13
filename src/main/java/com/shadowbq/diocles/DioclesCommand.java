@@ -42,7 +42,7 @@ public class DioclesCommand {
         // version (op)
         subcommands.put("version", new SubcommandEntry("version",
                 ctx -> {
-                    System.out.println("Diocles Mod Version: 1.0.0");
+                    System.out.println("Diocles Mod Version: " + DioclesConstants.VERSION);
                     return 1;
                 },
                 src -> src.hasPermissionLevel(2)));

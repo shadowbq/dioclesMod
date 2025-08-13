@@ -1,6 +1,6 @@
 # Diocles Mod (scoreboard + external sync)
 
-[![Mod Version](https://img.shields.io/badge/Mod%20Version-1.0.0-blue)](https://github.com/shadowbq/dioclesMod/releases)
+[![Mod Version](https://img.shields.io/badge/Mod%20Version-1.0.1-blue)](https://github.com/shadowbq/dioclesMod/releases)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.7-green)](https://minecraft.net)
 [![Fabric Loader](https://img.shields.io/badge/Fabric%20Loader-0.16.14+-orange)](https://fabricmc.net)
 [![Fabric API](https://img.shields.io/badge/Fabric%20API-0.129.0+-yellow)](https://modrinth.com/mod/fabric-api)
@@ -136,3 +136,52 @@ View detailed test results in `build/reports/tests/test/index.html` after runnin
    ```
 
 3. The built JAR file will be located in `build/libs/`
+
+## Version Management
+
+This project includes automated version management tasks to help maintain consistent versioning across all project files:
+
+```bash
+./gradlew tasks --group versioning
+```
+
+```text
+> Configure project :
+Fabric Loom: 1.10.4
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'diocles'
+------------------------------------------------------------
+
+Versioning tasks
+----------------
+bumpMajor - Bump major version (X.y.z)
+bumpMinor - Bump minor version (x.Y.z)
+bumpPatch - Bump patch version (x.y.Z)
+currentVersion - Display the current version
+
+To see all tasks and more detail, run gradlew tasks --all
+
+To see more detail about a task, run gradlew help --task <task>
+
+BUILD SUCCESSFUL in 443ms
+1 actionable task: 1 executed
+```
+
+### Version Management Commands
+
+* **Check current version**: `./gradlew currentVersion`
+* **Bump patch version** (bug fixes): `./gradlew bumpPatch`
+* **Bump minor version** (new features): `./gradlew bumpMinor`  
+* **Bump major version** (breaking changes): `./gradlew bumpMajor`
+
+These commands automatically update the version in all relevant files:
+
+* `build.gradle`
+* `src/main/resources/fabric.mod.json`
+* `README.md` (version badge)
+* `DioclesConstants.java` (auto-generated)
+
+After bumping a version, run `./gradlew clean build` to regenerate version constants.

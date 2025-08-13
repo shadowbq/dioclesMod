@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "diocles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Diocles",
   "description": "Deathboard: scoreboards + external post + daily sync",
   "authors": ["shadowbq"],
