@@ -4,9 +4,9 @@
   "package": "com.shadowbq.diocles.mixin",
   "compatibilityLevel": "JAVA_21",
   "refmap": "diocles.refmap.json",
-  "mixins": ["ServerPlayerEntityMixin"],
+  "mixins": [],
   "client": [],
-  "server": ["ServerPlayerEntityMixin"],
+  "server": [],
   "injectors": {
     "defaultRequire": 1
   }

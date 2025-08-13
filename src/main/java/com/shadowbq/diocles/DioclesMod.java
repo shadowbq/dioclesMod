@@ -2,8 +2,10 @@ package com.shadowbq.diocles;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
+import net.minecraft.server.network.ServerPlayerEntity;
 
 public class DioclesMod implements ModInitializer {
     @Override
@@ -18,7 +20,12 @@ public class DioclesMod implements ModInitializer {
         // Register tick event to check for server day change
         ServerTickEvents.END_SERVER_TICK.register(server -> DeathboardManager.checkDayAndSync(server));
 
-        // Player death detection via Mixin (implemented in PlayerEntityMixin)
-        // The mixin will call DeathboardManager.handleDeath() when a player dies
+        // Register player death event using Fabric events instead of Mixin
+        ServerLivingEntityEvents.AFTER_DEATH.register((entity, damageSource) -> {
+            if (entity instanceof ServerPlayerEntity player) {
+                System.out.println("[Diocles] Player death detected via event: " + player.getName().getString());
+                DeathboardManager.handleDeath(player.getServer(), player);
+            }
+        });
     }
 }
