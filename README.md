@@ -1,6 +1,6 @@
 # Diocles Mod (scoreboard + external sync)
 
-[![Mod Version](https://img.shields.io/badge/Mod%20Version-1.1.0-blue)](https://github.com/shadowbq/dioclesMod/releases)
+[![Mod Version](https://img.shields.io/badge/Mod%20Version-1.1.1-blue)](https://github.com/shadowbq/dioclesMod/releases)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.7-green)](https://minecraft.net)
 [![Fabric Loader](https://img.shields.io/badge/Fabric%20Loader-0.16.14+-orange)](https://fabricmc.net)
 [![Fabric API](https://img.shields.io/badge/Fabric%20API-0.129.0+-yellow)](https://modrinth.com/mod/fabric-api)
