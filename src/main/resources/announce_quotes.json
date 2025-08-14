@@ -3,7 +3,10 @@
     "quote": "It's dangerous to go alone! Take this.",
     "source": "The Legend of Zelda"
   },
-  { "quote": "The cake is a lie.", "source": "Portal" },
+  {
+    "quote": "The cake is a lie.",
+    "source": "Portal"
+  },
   {
     "quote": "Press F to pay respects.",
     "source": "Call of Duty: Advanced Warfare"
@@ -20,8 +23,14 @@
     "quote": "At least I have chicken.",
     "source": "World of Warcraft viral video"
   },
-  { "quote": "All your base are belong to us.", "source": "Zero Wing meme" },
-  { "quote": "I am Error", "source": "Zelda II: The Adventure of Link" },
+  {
+    "quote": "All your base are belong to us.",
+    "source": "Zero Wing meme"
+  },
+  {
+    "quote": "I am Error",
+    "source": "Zelda II: The Adventure of Link"
+  },
   {
     "quote": "Look at you… soaring through the air like an eagle… piloting a blimp.",
     "source": "Portal (GLaDOS)"
@@ -34,18 +43,30 @@
     "quote": "It's time to kick ass and chew bubble gum… and I'm all outta gum.",
     "source": "Duke Nukem"
   },
-  { "quote": "You were almost a Jill sandwich!", "source": "Resident Evil" },
+  {
+    "quote": "You were almost a Jill sandwich!",
+    "source": "Resident Evil"
+  },
   {
     "quote": "What is a man? A miserable little pile of secrets!",
     "source": "Castlevania: Symphony of the Night"
   },
-  { "quote": "Goddamn it, Leeroy.", "source": "World of Warcraft viral video" },
-  { "quote": "Somebody set us up the bomb.", "source": "Zero Wing meme" },
+  {
+    "quote": "Goddamn it, Leeroy.",
+    "source": "World of Warcraft viral video"
+  },
+  {
+    "quote": "Somebody set us up the bomb.",
+    "source": "Zero Wing meme"
+  },
   {
     "quote": "I'm an equal opportunity ass kicker",
     "source": "Reddit gaming quote"
   },
-  { "quote": "I've got balls of fail.", "source": "Reddit gaming quote" },
+  {
+    "quote": "I've got balls of fail.",
+    "source": "Reddit gaming quote"
+  },
   {
     "quote": "I'm gonna rip off your head and sh*t down your neck",
     "source": "Reddit gaming quote"
@@ -62,7 +83,10 @@
     "quote": "I have a theoretical degree in physics",
     "source": "Reddit gaming quote"
   },
-  { "quote": "Eat Sleep Game", "source": "gamer meme T-shirt slogan" },
+  {
+    "quote": "Eat Sleep Game",
+    "source": "gamer meme T-shirt slogan"
+  },
   {
     "quote": "I paused my game to be here",
     "source": "gamer meme T-shirt slogan"
@@ -75,12 +99,104 @@
     "quote": "Real gamers don't die, they respawn",
     "source": "gamer meme culture"
   },
-  { "quote": "Git gud", "source": "gaming meme slang" },
-  { "quote": "Pwned 4 l1f3", "source": "gaming slang" },
-  { "quote": "Best Noob Ev3r!", "source": "gaming slang" },
+  {
+    "quote": "Git gud",
+    "source": "gaming meme slang"
+  },
+  {
+    "quote": "Pwned 4 l1f3",
+    "source": "gaming slang"
+  },
+  {
+    "quote": "Best Noob Ev3r!",
+    "source": "gaming slang"
+  },
   {
     "quote": "Chaos reigns, children stand and deliver",
     "source": "gaming epithet/fun"
   },
-  { "quote": "GG my a$$", "source": "Good Game, gaming slang" }
+  {
+    "quote": "GG my a$$",
+    "source": "Good Game, gaming slang"
+  },
+  {
+    "quote": "I hear hissing… where is it coming from?",
+    "source": "Steve"
+  },
+  {
+    "quote": "Punching trees is a legitimate survival strategy.",
+    "source": "Bad Axe the Almighty"
+  },
+  {
+    "quote": "I dug straight down. I regret everything.",
+    "source": "Anon."
+  },
+  {
+    "quote": "This is fine… it’s only lava.",
+    "source": "Anon."
+  },
+  {
+    "quote": "That Enderman is staring at me, isn’t it?",
+    "source": "Anon."
+  },
+  {
+    "quote": "I’ll just borrow some wool… the sheep won’t mind.",
+    "source": "Anon."
+  },
+  {
+    "quote": "Redstone is just Minecraft’s version of black magic.",
+    "source": "Anon"
+  },
+  {
+    "quote": "Don’t worry, I’m great with TNT.",
+    "source": "Anon."
+  },
+  {
+    "quote": "All I wanted was sand, now I’m drowning.",
+    "source": "Anon."
+  },
+  {
+    "quote": "We need more torches. Always more torches.",
+    "source": "Anon."
+  },
+  {
+    "quote": "I found diamonds! …Oh no, there’s lava underneath.",
+    "source": "Anon."
+  },
+  {
+    "quote": "Let’s build a house on top of that mountain.",
+    "source": "Ambitious building plans."
+  },
+  {
+    "quote": "Villagers speak in discounts if you save them from zombies.",
+    "source": "Trading benefits from curing zombie villagers."
+  },
+  {
+    "quote": "Phantoms only come out if you don’t sleep. I’m never sleeping again.",
+    "source": "Learning about phantom mechanics."
+  },
+  {
+    "quote": "Bed in the Nether? What could go wrong?",
+    "source": "Discovering Nether bed explosions."
+  },
+  {
+    "quote": "Creepers don’t care about your masterpiece.",
+    "source": "Mob griefing frustration."
+  },
+  {
+    "quote": "One does not simply walk into the End.",
+    "source": "Journey to fight the Ender Dragon."
+  },
+  {
+    "quote": "I built a dirt hut… and I’m proud of it.",
+    "source": "First-night shelter pride."
+  },
+  {
+    "quote": "Note blocks are my jam.",
+    "source": "Making music inside Minecraft."
+  },
+  {
+    "quote": "I accidentally spawned the Wither in my base.",
+    "source": "A mistake with catastrophic consequences."
+  }
 ]
